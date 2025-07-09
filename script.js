@@ -143,7 +143,7 @@ function addCategory(category){
           div3.setAttribute('data-answer-1',question.answers[0]);
           div3.setAttribute('data-answer-2',question.answers[1]);
           div3.setAttribute('data-correct',question.correct);
-          div3.setAttribute('data-value',div3.getInnerHTML());
+          div3.setAttribute('data-value',div3.getInnerHTML);
           div3.addEventListener('click',flipCard);
      });
 }
